@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.aboutUs">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/aboutUsconstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/getstared" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="107dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="24dp"
+            android:text="About us"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="356dp"
+            android:layout_height="340dp"
+            android:layout_marginTop="12dp"
+            android:text="Our mobile application is a one-stop solution for finding skilled craftsmen and services related to construction, delivery, plumbing, repairs, and more. We connect you with trusted professionals who are dedicated to delivering top-quality services. With a user-friendly interface, you can browse service categories, view detailed profiles, read reviews, and make informed decisions. Our app ensures transparency and vetted professionals, providing peace of mind. Simply enter your location, select the service you need, and find skilled craftsmen in your area. Communicate, schedule appointments, and track progress effortlessly. Say goodbye to the stress of finding reliable craftsmen - download our app and experience the convenience today."
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

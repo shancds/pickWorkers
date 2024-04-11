@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <FrameLayout
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Settings"
+                android:background="@drawable/header"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:paddingTop="10dp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView21"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="32dp"-->
+<!--                android:text="LOCATION SETTINGD"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.077"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView20" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView22"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:text="Distance Unit"-->
+<!--                android:textColor="@color/black"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/textView23"-->
+<!--                app:layout_constraintHorizontal_bias="0.059"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView21"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView21" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView23"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="50dp"-->
+<!--                android:text="Km"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/textView22"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView21" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView24"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="NOTIFICATION SETTINGS"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView21"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView22" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView25"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:text="Notification"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/switch1"-->
+<!--                app:layout_constraintHorizontal_bias="0.069"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/textView24"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView24" />-->
+
+<!--            <Switch-->
+<!--                android:id="@+id/switch1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Switch"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/textView25"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/textView25"-->
+<!--                tools:layout_editor_absoluteX="278dp" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </FrameLayout>
+</LinearLayout>
